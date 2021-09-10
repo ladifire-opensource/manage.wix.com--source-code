@@ -1,0 +1,128 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var _ref = /*#__PURE__*/React.createElement("g", {
+  fill: "none",
+  fillRule: "evenodd"
+}, /*#__PURE__*/React.createElement("rect", {
+  width: 257,
+  height: 246,
+  rx: 8
+}), /*#__PURE__*/React.createElement("rect", {
+  fill: "#DBE4EE",
+  x: 102,
+  y: 196,
+  width: 54,
+  height: 13,
+  rx: 5.5
+}), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue-Medium, Helvetica Neue",
+  fontSize: 5,
+  fontWeight: 400,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 120.808,
+  y: 204
+}, "Submit")), /*#__PURE__*/React.createElement("rect", {
+  fill: "#DBE4EE",
+  x: 35,
+  y: 59,
+  width: 188,
+  height: 14,
+  rx: 2
+}), /*#__PURE__*/React.createElement("rect", {
+  fill: "#DBE4EE",
+  x: 35,
+  y: 91,
+  width: 188,
+  height: 14,
+  rx: 2
+}), /*#__PURE__*/React.createElement("rect", {
+  fill: "#DBE4EE",
+  x: 35,
+  y: 124,
+  width: 42,
+  height: 14,
+  rx: 2
+}), /*#__PURE__*/React.createElement("rect", {
+  fill: "#DBE4EE",
+  x: 83,
+  y: 124,
+  width: 140,
+  height: 14,
+  rx: 2
+}), /*#__PURE__*/React.createElement("circle", {
+  fill: "#DBE4EE",
+  cx: 39,
+  cy: 165,
+  r: 4
+}), /*#__PURE__*/React.createElement("circle", {
+  fill: "#DBE4EE",
+  cx: 39,
+  cy: 180,
+  r: 4
+}), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 35,
+  y: 55
+}, "Full Name ")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 35,
+  y: 86
+}, "Email Address")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 35,
+  y: 118
+}, "Phone Number")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue-Medium, Helvetica Neue",
+  fontSize: 10,
+  fontWeight: 400,
+  fill: "#32536A",
+  fillOpacity: 0.926
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 96.545,
+  y: 40
+}, "Health Waiver")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 35,
+  y: 152
+}, "Do you have a doctor\u2019s permit to participate in physical activities?")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 50,
+  y: 167
+}, "No")), /*#__PURE__*/React.createElement("text", {
+  fontFamily: "HelveticaNeue, Helvetica Neue",
+  fontSize: 6,
+  fill: "#000"
+}, /*#__PURE__*/React.createElement("tspan", {
+  x: 50,
+  y: 182
+}, "Yes")));
+
+function SvgHealthWaiver(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 257,
+    height: 246,
+    viewBox: "0 0 257 246",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _ref);
+}
+
+export default "data:image/svg+xml,%3csvg width='257px' height='246px' viewBox='0 0 257 246' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e %3ctitle%3eGroup 3%3c/title%3e %3cg id='Create-form-✏️' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3e %3cg id='02-list-layout-copy-19' transform='translate(-1122.000000, -276.000000)'%3e %3cg id='Group-3' transform='translate(1122.000000, 276.000000)'%3e %3crect id='Rectangle-Copy-12' x='0' y='0' width='257' height='246' rx='8'%3e%3c/rect%3e %3crect id='Rectangle-Copy-5' fill='%23DBE4EE' x='102' y='196' width='54' height='13' rx='5.5'%3e%3c/rect%3e %3ctext id='Submit-Copy' font-family='HelveticaNeue-Medium, Helvetica Neue' font-size='5' font-weight='400' fill='%23000000'%3e %3ctspan x='120.8075' y='204'%3eSubmit%3c/tspan%3e %3c/text%3e %3crect id='Rectangle-Copy-10' fill='%23DBE4EE' x='35' y='59' width='188' height='14' rx='2'%3e%3c/rect%3e %3crect id='Rectangle-Copy-11' fill='%23DBE4EE' x='35' y='91' width='188' height='14' rx='2'%3e%3c/rect%3e %3crect id='Rectangle-Copy-13' fill='%23DBE4EE' x='35' y='124' width='42' height='14' rx='2'%3e%3c/rect%3e %3crect id='Rectangle-Copy-15' fill='%23DBE4EE' x='83' y='124' width='140' height='14' rx='2'%3e%3c/rect%3e %3ccircle id='Oval' fill='%23DBE4EE' cx='39' cy='165' r='4'%3e%3c/circle%3e %3ccircle id='Oval-Copy' fill='%23DBE4EE' cx='39' cy='180' r='4'%3e%3c/circle%3e %3ctext id='Full-Name' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='35' y='55'%3eFull Name %3c/tspan%3e %3c/text%3e %3ctext id='Email-Address' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='35' y='86'%3eEmail Address%3c/tspan%3e %3c/text%3e %3ctext id='Phone-Number' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='35' y='118'%3ePhone Number%3c/tspan%3e %3c/text%3e %3ctext id='Health-Waiver' font-family='HelveticaNeue-Medium, Helvetica Neue' font-size='10' font-weight='400' fill='%2332536A' fill-opacity='0.925710398'%3e %3ctspan x='96.545' y='40'%3eHealth Waiver%3c/tspan%3e %3c/text%3e %3ctext id='Do-you-have-a-doctor' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='35' y='152'%3eDo you have a doctor’s permit to participate in physical activities?%3c/tspan%3e %3c/text%3e %3ctext id='No' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='50' y='167'%3eNo%3c/tspan%3e %3c/text%3e %3ctext id='Yes' font-family='HelveticaNeue, Helvetica Neue' font-size='6' font-weight='normal' fill='%23000000'%3e %3ctspan x='50' y='182'%3eYes%3c/tspan%3e %3c/text%3e %3c/g%3e %3c/g%3e %3c/g%3e %3c/svg%3e";
+export { SvgHealthWaiver as ReactComponent };

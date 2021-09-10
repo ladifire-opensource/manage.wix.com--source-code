@@ -1,0 +1,45 @@
+var _defs, _g;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+function SvgWarningAlertIcon(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 18,
+    height: 18,
+    viewBox: "0 0 18 18",
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink"
+  }, props), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("path", {
+    d: "M10.729 5.275a.94.94 0 01.273.727v4a.94.94 0 01-1 1 .94.94 0 01-1-1v-4a.94.94 0 011-1 .94.94 0 01.727.273zm0 8a.94.94 0 01.273.727.94.94 0 01-1 1 .94.94 0 01-1-1 .94.94 0 011-1 .94.94 0 01.727.273z",
+    id: "warning-alert-icon_svg__a"
+  }))), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    fill: "none",
+    fillRule: "evenodd"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 18,
+    height: 18,
+    rx: 9,
+    fill: "#F4553E"
+  }), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-1 -1)"
+  }, /*#__PURE__*/React.createElement("mask", {
+    id: "warning-alert-icon_svg__b",
+    fill: "#fff"
+  }, /*#__PURE__*/React.createElement("use", {
+    xlinkHref: "#warning-alert-icon_svg__a"
+  })), /*#__PURE__*/React.createElement("use", {
+    fill: "#162D3D",
+    fillRule: "nonzero",
+    xlinkHref: "#warning-alert-icon_svg__a"
+  }), /*#__PURE__*/React.createElement("g", {
+    mask: "url(#warning-alert-icon_svg__b)",
+    fill: "#FFF"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M0 0h20v20H0z"
+  }))))));
+}
+
+export default "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8'?%3E %3Csvg width='18px' height='18px' viewBox='0 0 18 18' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E %3C!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com --%3E %3Ctitle%3E12 Other / 12.3a Counter Badge%3C/title%3E %3Cdesc%3ECreated with Sketch.%3C/desc%3E %3Cdefs%3E %3Cpath d='M10.7287834,5.27532214 C10.9203342,5.46687299 11.0199347,5.73174979 11.0020527,6.00205275 L11.0020527,10.0020527 C11.0199347,10.2723557 10.9203342,10.5372325 10.7287834,10.7287834 C10.5372325,10.9203342 10.2723557,11.0199347 10.0020527,11.0020527 C9.73174979,11.0199347 9.46687299,10.9203342 9.27532214,10.7287834 C9.08377129,10.5372325 8.98417081,10.2723557 9.00205275,10.0020527 L9.00205275,6.00205275 C8.98417081,5.73174979 9.08377129,5.46687299 9.27532214,5.27532214 C9.46687299,5.08377129 9.73174979,4.98417081 10.0020527,5.00205275 C10.2723557,4.98417081 10.5372325,5.08377129 10.7287834,5.27532214 Z M10.7287834,13.2753221 C10.9203342,13.466873 11.0199347,13.7317498 11.0020527,14.0020527 C11.0199347,14.2723557 10.9203342,14.5372325 10.7287834,14.7287834 C10.5372325,14.9203342 10.2723557,15.0199347 10.0020527,15.0020527 C9.73174979,15.0199347 9.46687299,14.9203342 9.27532214,14.7287834 C9.08377129,14.5372325 8.98417081,14.2723557 9.00205275,14.0020527 C8.98417081,13.7317498 9.08377129,13.466873 9.27532214,13.2753221 C9.46687299,13.0837713 9.73174979,12.9841708 10.0020527,13.0020527 C10.2723557,12.9841708 10.5372325,13.0837713 10.7287834,13.2753221 Z' id='path-1'%3E%3C/path%3E %3C/defs%3E %3Cg id='High-Priority-Notifications-6.2' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E %3Cg id='04_HP_Notifications_In-Dialog_New-Notification' transform='translate(-1476.000000, -226.000000)'%3E %3Cg id='Floating-Helper' transform='translate(1446.000000, 205.000000)'%3E %3Cg id='12-Other-/-12.3a-Counter-Badge' transform='translate(30.000000, 21.000000)'%3E %3Cg id='12-Other-/-Primitives-/-Counter-Badge-/-Warning' fill='%23F4553E' fill-rule='evenodd'%3E %3Crect id='marker' x='0' y='0' width='18' height='18' rx='9'%3E%3C/rect%3E %3C/g%3E %3Cg id='12-Other-/-Primitives-/-Counter-Badge-/-Icon' transform='translate(-1.000000, -1.000000)'%3E %3Cg id='01-General-/-Primitives-/-System-Icons-/-Error'%3E %3Cmask id='mask-2' fill='white'%3E %3Cuse xlink:href='%23path-1'%3E%3C/use%3E %3C/mask%3E %3Cuse id='Shape' fill='%23162D3D' fill-rule='nonzero' xlink:href='%23path-1'%3E%3C/use%3E %3Cg id='01-General-/-Primitives-/-Fill-/-White' mask='url(%23mask-2)' fill='%23FFFFFF' fill-rule='evenodd'%3E %3Crect id='Fill-White' x='0' y='0' width='20' height='20'%3E%3C/rect%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/g%3E %3C/svg%3E";
+export { SvgWarningAlertIcon as ReactComponent };

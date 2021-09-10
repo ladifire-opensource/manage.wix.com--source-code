@@ -1,0 +1,11 @@
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("BusinessManagerAPI"), require("reactModuleContainer"), require("React"), require("ReactDOM"), require("Sentry"));
+	else if(typeof define === 'function' && define.amd)
+		define("AutoCMS", ["BusinessManagerAPI", "reactModuleContainer", "React", "ReactDOM", "Sentry"], factory);
+	else if(typeof exports === 'object')
+		exports["AutoCMS"] = factory(require("BusinessManagerAPI"), require("reactModuleContainer"), require("React"), require("ReactDOM"), require("Sentry"));
+	else
+		root["AutoCMS"] = root["AutoCMS"] || {}, root["AutoCMS"]["auto-cms-bm-module"] = factory(root["BusinessManagerAPI"], root["reactModuleContainer"], root["React"], root["ReactDOM"], root["Sentry"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE__24197__, __WEBPACK_EXTERNAL_MODULE__95772__, __WEBPACK_EXTERNAL_MODULE__1024__, __WEBPACK_EXTERNAL_MODULE__30314__, __WEBPACK_EXTERNAL_MODULE__49500__) {
+return 

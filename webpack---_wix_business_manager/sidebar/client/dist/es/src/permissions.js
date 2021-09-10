@@ -1,0 +1,12 @@
+export var managePremiumPermission = 'my-account.manage-premium';
+export var editSitePermission = 'html-editor.edit';
+export var manageBackofficePermission = 'my-account.manage-back-office';
+export var openDashboardPermission = 'my-account.open-dashboard';
+export var viewCalendarPermission = 'SIDEBAR.VIEW-BOOKINGS-CALENDAR';
+export var viewTasksPermission = 'SIDEBAR.VIEW-TASKS';
+export var viewInboxPermission = 'SIDEBAR.VIEW-INBOX';
+export var viewWorkflowsPermission = 'SIDEBAR.VIEW-WORKFLOWS';
+export var viewContactListPermission = 'SIDEBAR.VIEW-CONTACT-LIST';
+export var viewPaidPlansPermission = 'SIDEBAR.VIEW-PURCHASED-PLANS';
+export var viewCrmHomePermission = 'SIDEBAR.VIEW-CRM-HOME';
+//# sourceMappingURL=permissions.js.map

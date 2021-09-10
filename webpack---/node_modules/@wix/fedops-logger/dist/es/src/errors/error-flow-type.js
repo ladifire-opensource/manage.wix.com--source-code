@@ -1,0 +1,1 @@
+export var APP_LOAD_ERROR_FLOW = 'app-load';

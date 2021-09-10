@@ -1,0 +1,19 @@
+var api = require("!../../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = require("!!../../../../../node_modules/yoshi-style-dependencies/css-loader.js??ref--4-rules-1-oneOf-1!../../../../../node_modules/yoshi-style-dependencies/postcss-loader.js??postcss!../../../../../node_modules/yoshi-style-dependencies/resolve-url-loader.js!../../../../../node_modules/yoshi-style-dependencies/sass-loader.js??ref--4-rules-5!./premium-badge.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {"injectType":"singletonStyleTag"};
+
+options.insert = "head";
+options.singleton = true;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};

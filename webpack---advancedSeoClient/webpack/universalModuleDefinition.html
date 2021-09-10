@@ -1,0 +1,11 @@
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("react"), require("lodash"), require("react-dom"), require("BusinessManagerAPI"), require("reactModuleContainer"));
+	else if(typeof define === 'function' && define.amd)
+		define("advancedSeoClient", ["react", "lodash", "react-dom", "BusinessManagerAPI", "reactModuleContainer"], factory);
+	else if(typeof exports === 'object')
+		exports["advancedSeoClient"] = factory(require("react"), require("lodash"), require("react-dom"), require("BusinessManagerAPI"), require("reactModuleContainer"));
+	else
+		root["advancedSeoClient"] = factory(root["React"], root["_"], root["ReactDOM"], root["BusinessManagerAPI"], root["reactModuleContainer"]);
+})((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__0__, __WEBPACK_EXTERNAL_MODULE__10__, __WEBPACK_EXTERNAL_MODULE__42__, __WEBPACK_EXTERNAL_MODULE__62__, __WEBPACK_EXTERNAL_MODULE__64__) {
+return 

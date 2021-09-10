@@ -1,0 +1,1 @@
+export const FETCH_APPS_SUCCESS = 'apps.FETCH_APPS_SUCCESS';
